@@ -1,0 +1,14 @@
+[Unit]
+Description=AlertBox API (Uvicorn)
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/alertbox
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/opt/alertbox/.venv/bin/uvicorn app.main:app --host 0.0.0.0 --port 8000
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

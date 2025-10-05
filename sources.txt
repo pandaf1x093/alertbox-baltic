@@ -1,0 +1,41 @@
+# name|url|country|org|type|priority
+ERR (Estonia)|https://rus.err.ee/rss|EE|MEDIA|rss|8
+Postimees (Estonia)|https://rus.postimees.ee/rss|EE|MEDIA|rss|8
+Delfi RUS (Estonia)|https://rus.delfi.ee/rss.xml|EE|MEDIA|rss|7
+Delfi EE (Estonia)|https://www.delfi.ee/rss.php|EE|MEDIA|rss|6
+Äripäev [Business] (Estonia)|https://www.aripaev.ee/rss|EE|MEDIA|rss|6
+
+LSM (Latvia)|https://rus.lsm.lv/rss/|LV|MEDIA|rss|8
+Delfi RUS (Latvia)|https://rus.delfi.lv/rss.php|LV|MEDIA|rss|8
+TVNET (Latvia)|https://www.tvnet.lv/rss|LV|MEDIA|rss|7
+Dienas Bizness [Business] (Latvia)|https://www.db.lv/rss|LV|MEDIA|rss|6
+LETA (Latvia)|https://www.leta.lv/rss/|LV|MEDIA|rss|6
+
+Delfi RU (Lithuania)|https://www.delfi.lt/rss/ru/news.xml|LT|MEDIA|rss|8
+LRT (Lithuania)|https://www.lrt.lt/servisai/rss/1|LT|MEDIA|rss|8
+15min.lt (Lithuania)|https://www.15min.lt/rss|LT|MEDIA|rss|7
+Verslo žinios [Business] (Lithuania)|https://www.vz.lt/rss|LT|MEDIA|rss|6
+Made in Vilnius (Lithuania)|https://madeinvilnius.lt/feed/|LT|MEDIA|rss|5
+
+Rzeczpospolita (Poland)|https://www.rp.pl/rss/1019|PL|MEDIA|rss|8
+Onet (Poland)|https://wiadomosci.onet.pl/rss.xml|PL|MEDIA|rss|8
+TVN24 (Poland)|https://tvn24.pl/rss/najnowsze.xml|PL|MEDIA|rss|7
+Money.pl [Business] (Poland)|https://www.money.pl/rss/rss.xml|PL|MEDIA|rss|6
+Wprost (Poland)|https://www.wprost.pl/rss/artykuly.xml|PL|MEDIA|rss|6
+
+Pravda (Ukraine)|https://www.pravda.com.ua/rus/rss/|UA|MEDIA|rss|8
+UNIAN (Ukraine)|https://rss.unian.net/site/news_rus.rss|UA|MEDIA|rss|8
+Liga.net (Ukraine)|https://www.liga.net/news/all/rss.xml|UA|MEDIA|rss|7
+Interfax-Ukraine|https://interfax.com.ua/news/rss.xml|UA|MEDIA|rss|7
+Ukrinform (Ukraine)|https://www.ukrinform.ru/rss/news|UA|MEDIA|rss|7
+
+Yle (Finland)|https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_UUTISET|FI|MEDIA|rss|8
+HS.fi (Finland)|https://www.hs.fi/rss/tuoreimmat.xml|FI|MEDIA|rss|7
+Ilta-Sanomat (Finland)|https://www.is.fi/rss/tuoreimmat.xml|FI|MEDIA|rss|7
+Taloussanomat [Business] (Finland)|https://www.is.fi/rss/taloussanomat.xml|FI|MEDIA|rss|6
+HBL (Finland)|https://www.hbl.fi/rss/|FI|MEDIA|rss|5
+
+NATO - News RSS|https://www.nato.int/cps/en/natohq/news.htm?rss=true|NATO|NATO|rss|10
+EU Council - Press RSS|https://www.consilium.europa.eu/en/press/press-releases/rss|EU|COUNCIL|rss|9
+
+Юрий Швец - YouTube|https://www.youtube.com/@yuryshvets|UA|MEDIA|youtube|7

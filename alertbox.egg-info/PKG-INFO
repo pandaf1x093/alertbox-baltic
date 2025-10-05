@@ -1,0 +1,51 @@
+Metadata-Version: 2.4
+Name: alertbox
+Version: 0.1.0
+Summary: AlertBox Baltic: FastAPI app with schedulers and LLM fallback (Groq -> OpenAI).
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi>=0.115
+Requires-Dist: uvicorn[standard]>=0.30
+Requires-Dist: pydantic>=2.8
+Requires-Dist: python-dotenv>=1.0
+Requires-Dist: SQLAlchemy>=2.0
+Requires-Dist: alembic>=1.13
+Requires-Dist: httpx>=0.27
+Requires-Dist: feedparser>=6.0
+Requires-Dist: beautifulsoup4>=4.12
+Requires-Dist: apscheduler>=3.10
+Requires-Dist: aiosqlite>=0.20
+Provides-Extra: dev
+Requires-Dist: pytest>=8.3; extra == "dev"
+Requires-Dist: ruff>=0.6; extra == "dev"
+Requires-Dist: black>=24.8; extra == "dev"
+Requires-Dist: isort>=5.13; extra == "dev"
+
+# AlertBox Baltic (FastAPI + APScheduler + SQLAlchemy + LLM fallback)
+
+Минимальное приложение для аналитических отчётов по новостям региона (Baltics).
+
+## Установка
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -U pip
+pip install -e .
+cp .env.example .env && nano .env
+```
+
+## Запуск
+
+```bash
+make run
+# или отдельно:
+make api
+make scheduler
+```
+
+## Эндпойнты
+- `GET /health`
+- `POST /report`
+- `GET /reports`
+- `POST /sources/bootstrap`

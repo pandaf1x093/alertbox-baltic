@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+*.pyc
+*.sqlite
+alertbox.db
+.env
+.alembic/
+.cache/
+pytest_cache/
+dist/
+build/
+# venv & caches
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# local data & state
+alertbox.db
+context_memory.json
+logs/
+*.log
+
+# secrets
+.env
+.env.local
